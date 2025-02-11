@@ -13,3 +13,4 @@ class Solution:
    
 solution = Solution()
 print(solution.twoSum(nums, target))
+
