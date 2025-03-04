@@ -9,7 +9,8 @@ class Solution:
             if complement in hashmap:           
                 return [hashmap[complement], i]
             hashmap[k] = i     
-   
+            
+
    
 solution = Solution()
 print(solution.twoSum(nums, target))
